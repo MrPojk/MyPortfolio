@@ -1,0 +1,107 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: #808080;
+  }
+  
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5f5f5f;
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  button:hover {
+    background-color: #4b4b4b;
+  }
+  
+  #root {
+    padding: 20px;
+    background-color: #00025a;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #root h2 {
+    margin-top: 0;
+  }
+  
+  #root ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #root li {
+    margin-bottom: 10px;
+  }
+  
+  #root p {
+    margin-bottom: 20px;
+  }
+
+  /* Add styles for dark mode */
+body.dark-mode {
+    background-color: #00025a;
+    color: #ffffff;
+  }
+  
+  body.dark-mode .center {
+    background-color: #00025a;
+  }
+  
+  body.dark-mode h1 {
+    color: #ffffff;
+  }
+  
+  /* Add styles for light mode (optional) */
+  body.light-mode {
+    background-color: #00025a;
+    color: #ffffff;
+  }
+  
+  body.light-mode .center {
+    background-color: #3f3f3f;
+  }
+  
+  body.light-mode h1 {
+    color: #ffffff;
+  }
+
+  img {
+    width: 150px; /* set the width of the images */
+    height: 150px; /* set the height of the images */
+    margin: 10px; /* add some margin around the images */
+    display: inline-block; /* make the images display inline-block */
+  }
+  
+  .center {
+    text-align: center; /* center the images horizontally */
+  }
