@@ -9,7 +9,7 @@
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #494949;
+    color: #c2c2c2;
     background-color: #ffffff;
   }
   
@@ -70,7 +70,7 @@
   /* Add styles for dark mode */
 body.dark-mode {
     background-color: #00025a;
-    color: #ffffff;
+    color: #c2c2c2;
   }
   
   body.dark-mode .center {
@@ -92,7 +92,7 @@ body.dark-mode {
   }
   
   body.light-mode h1 {
-    color: #ffffff;
+    color: #00025a;
   }
 
   img {
